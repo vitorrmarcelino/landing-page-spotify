@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img-header{
+    height: 40px;
+    padding-left: 100px;
+}
+
+nav{
+    padding-right: 100px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+nav > a:hover{
+    color: #1BD760;
+}
+
+nav > span{
+    color: white;
+    padding: 10px;
+}
+
+.login-register{
+    color: lightgray;
+}
+
+main{
+    background-color: #19E68C;
+    display: flex;
+    justify-content: center;
+}
+
+#laptop{
+    height: 100px;
+}
+
