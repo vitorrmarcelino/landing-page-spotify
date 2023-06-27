@@ -47,9 +47,13 @@ main{
     background-color: #19E68C;
     display: flex;
     justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
 
 #laptop{
-    height: 100px;
+    width: 130px;
+    margin: auto;
+    padding-top: 100px;
 }
 
