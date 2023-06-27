@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 header{
     height: 80px;
     background-color: black;
@@ -20,7 +24,6 @@ header{
 
 nav{
     padding-right: 100px;
-    font-family: sans-serif;
     font-weight: 550;
 }
 
@@ -40,7 +43,7 @@ nav > span{
 }
 
 .login-register{
-    color: lightgray;
+    color: rgb(142, 142, 142);
 }
 
 main{
@@ -57,3 +60,66 @@ main{
     padding-top: 100px;
 }
 
+#titulo-baixar{
+    font-weight: 800;
+    font-size: 2.5em;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+#download{
+    background-color: white;
+    width: 80px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 40px;
+    margin: auto;
+    font-size: 0.8em;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#download:hover{
+    scale: 1.05;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+aside h2{
+    font-size: 1.8em;
+    font-weight: 900;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+aside img{
+    padding: 30px 6px 60px 6px;
+}
+
+footer{
+    background-color: #222326;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+footer img{
+    width: 450px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+footer h2{
+    color: white;
+    font-size: 1.9em;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
