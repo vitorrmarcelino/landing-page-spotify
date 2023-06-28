@@ -102,24 +102,67 @@ aside img{
     padding: 30px 6px 60px 6px;
 }
 
-footer{
+#prefooter{
     background-color: #222326;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    color: white;
 }
 
-footer img{
+#prefooter img{
     width: 450px;
     margin: auto;
     padding-top: 80px;
 }
 
-footer h2{
-    color: white;
+#prefooter h2{
     font-size: 1.9em;
     font-weight: 700;
     padding-top: 40px;
-    padding-bottom: 50px;
 }
+
+#prefooter ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 50px 20px 50px;
+}
+
+ul > a{
+    color: #21C960;
+}
+
+#prefooter li{
+    padding: 20px 30px 20px 5px;
+    list-style-type: none;
+    position:relative;
+}
+
+.disc::after{
+    content: '•';
+    color: #1DB954;
+    display: inline-block;
+    position: absolute;
+    right: 0.5em;
+    top: 0.6em;
+    font-size: 1.5em;
+}
+
+#playstation::after{
+    content: '®';
+    color: #21C960;
+    display: inline-block;
+    position: absolute;
+    right: 1.8em;
+    top: 1.3em;
+    font-size: 0.7em;
+}
+
+footer{
+    background-color: black;
+}
+
+
+
