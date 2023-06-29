@@ -162,4 +162,42 @@ ul > a{
 
 footer{
     background-color: black;
+    color: white;
 }
+
+#footerdiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftside{
+    justify-content: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#logofooter{
+    
+}
+
+#logofooter > img{
+    height: 40px;
+}
+
+#footertext{
+    display: flex;
+    flex-direction: column;
+}
+
+#socialsfoot{
+    display: flex;
+    flex-direction: row;
+}
+
+.socialfoot{
+    height: 50px;
+    width: 50px;
+    background-color: #222326;
+    border-radius: 50%;
+}
+
