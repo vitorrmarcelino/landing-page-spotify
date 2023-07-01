@@ -19,11 +19,11 @@ header{
 
 #img-header{
     height: 40px;
-    padding-left: 100px;
+    padding-left: 5vw;
 }
 
 nav{
-    padding-right: 100px;
+    padding-right: 5vw;
     font-weight: 550;
 }
 
@@ -135,7 +135,7 @@ ul > a{
 }
 
 #prefooter li{
-    padding: 40px 30px 50px 5px;
+    padding: 40px 30px 80px 5px;
     list-style-type: none;
     position:relative;
 }
