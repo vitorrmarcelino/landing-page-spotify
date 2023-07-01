@@ -165,33 +165,53 @@ footer{
     color: white;
 }
 
+footer h3{
+    font-size: 0.8em;
+    color: #919496;
+}
+
+footer p{
+    font-size: 0.9em;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer li{
+
+}
+
 #footerdiv{
+    padding-top: 80px;
     display: flex;
     justify-content: space-between;
-}
 
-#leftside{
-    justify-content: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-#logofooter{
-    
 }
 
 #logofooter > img{
     height: 40px;
 }
 
-#footertext{
+#logofooter{
+    margin-left: 50px;
+}
+
+.footertext{
+    padding-left: 80px;
+    line-height: 3em;
+}
+
+#textosfooter{
+    flex-direction: row;
     display: flex;
-    flex-direction: column;
+    padding-right: 150px;
 }
 
 #socialsfoot{
     display: flex;
     flex-direction: row;
+    margin-right: 40px;
 }
 
 .socialfoot{
@@ -199,5 +219,15 @@ footer{
     width: 50px;
     background-color: #222326;
     border-radius: 50%;
+    margin-right: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: #1BD760;
 }
 
