@@ -19,11 +19,11 @@ header{
 
 #img-header{
     height: 40px;
-    padding-left: 5vw;
+    padding-left: 7vw;
 }
 
 nav{
-    padding-right: 5vw;
+    padding-right: 7vw;
     font-weight: 550;
 }
 
@@ -72,17 +72,18 @@ main{
     width: 80px;
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 15px;
     border-radius: 40px;
     margin: auto;
     font-size: 0.8em;
     margin-top: 50px;
     margin-bottom: 100px;
+    transition: 0.2s ease-in-out;
 }
 
 #download:hover{
-    scale: 1.05;
+    scale: 1.07;
 }
 
 aside{
@@ -194,7 +195,7 @@ footer li{
 }
 
 #logofooter{
-    margin-left: 80px;
+    margin-left: 7vw;
 }
 
 .footertext{
@@ -212,7 +213,7 @@ footer li{
 #socialsfoot{
     display: flex;
     flex-direction: row;
-    margin-right: 80px;
+    margin-right: 7vw;
 }
 
 .socialfoot{
@@ -238,11 +239,53 @@ footer a:hover{
 .linklogos{
     font-size: 30px;
     color: #fff;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .linklogos:hover{
     color: #1BD760;
 }
 
+div#last-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 7vw;
+    padding-right: 7VW;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
 
+div#last-line ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+div#last-line a{
+    padding: 15px;
+    font-size: 0.75em;
+    color: #919496;
+    text-decoration: none;
+}
+
+div#last-line a:hover, div#last-part-right a:hover{
+    color: #1BD760;
+}
+
+div#last-part-right{
+    line-height: 3em;
+    font-size: 0.8em;
+    align-items: flex-start;
+    display: flex;
+    text-align: right;
+}
+
+div#last-part-right a{
+    text-decoration: none;
+    color: #919496;
+}
+
+.bx-world{
+    padding-right: 5px;
+}
